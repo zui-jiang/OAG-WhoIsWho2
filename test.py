@@ -33,13 +33,12 @@ labels = label
 mean = means
 std = stds
 
-print(features.shape)
-print(labels.shape)
+
 xSample = features.tolist()
 ySample = labels.tolist()
 
 
-trainNum = 400
+trainNum = 40000
 xTrain = xSample[:trainNum]
 yTrain = ySample[:trainNum]
 xTest = xSample[trainNum:]
@@ -392,7 +391,7 @@ rf = RandomForestClassifier(
                             warm_start=False,
                             class_weight=None,
                             n_jobs=10,
-                            min_impurity_decrease=0.1
+                            min_impurity_decrease=0.1      # 最优模型可取消这项
                             )
 rf.fit(xTrain, yTrain)
 print(np.array(xTest).shape)
@@ -405,7 +404,7 @@ print ("Train Accuary: %.2f%%" % (train_accuracy * 100.0))
 
 result_dict = defaultdict(list)
 total = 0
-for item in tqdm(testData[:100]):
+for item in tqdm(testData):
     paperId, index = item.split('-')
     paperInfo = testPublic[paperId]
     name = paperInfo["authors"]
@@ -482,7 +481,6 @@ for items in result_dict:
             result[items].append(paperId)
         else:
             num += 1
-print(num)
 
 with open("./result.json", 'w') as files:
     json.dump(result, files, indent = 4)
