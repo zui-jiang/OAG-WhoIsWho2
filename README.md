@@ -111,4 +111,4 @@
 ![PIC4](https://github.com/lyj201002/OAG-WhoIsWho2/blob/master/download%20(3).png)
 ![PIC5](https://github.com/lyj201002/OAG-WhoIsWho2/blob/master/download%20(4).png)
 ![PIC6](https://github.com/lyj201002/OAG-WhoIsWho2/blob/master/download%20(5).png)
-![PIC7](https://github.com/lyj201002/OAG-WhoIsWho2/blob/master/download%20.png)
+![PIC7](https://github.com/lyj201002/OAG-WhoIsWho2/blob/master/download.png)
