@@ -385,7 +385,7 @@ for item in authorPaper:
 rf = RandomForestClassifier(
                             n_estimators=1000,
                             criterion='entropy',
-                            max_depth=9,
+                            max_depth=10,
                             bootstrap=True,
                             random_state=0,
                             warm_start=False,
@@ -472,7 +472,7 @@ result_dict = joblib.load("./result_dict.pkl")
 
 
 result = defaultdict(list)
-threshold = 0.06
+threshold = 0.08
 num = 0
 for items in result_dict:
     for item in result_dict[items]:
