@@ -106,9 +106,13 @@
 | scoreAbstract4|关键词重合总次数/总关键词出现次数                                |
 
 ## 特征重要度
+###  Pearson correlation coefficient
 ![PIC2](https://github.com/lyj201002/OAG-WhoIsWho2/blob/master/download%20(1).png)
 ![PIC3](https://github.com/lyj201002/OAG-WhoIsWho2/blob/master/download%20(2).png)
 ![PIC4](https://github.com/lyj201002/OAG-WhoIsWho2/blob/master/download%20(3).png)
 ![PIC5](https://github.com/lyj201002/OAG-WhoIsWho2/blob/master/download%20(4).png)
 ![PIC6](https://github.com/lyj201002/OAG-WhoIsWho2/blob/master/download%20(5).png)
 ![PIC7](https://github.com/lyj201002/OAG-WhoIsWho2/blob/master/download.png)
+### Model feature importances
+![PIC8](https://github.com/lyj201002/OAG-WhoIsWho2/blob/master/download%20(7).png)
+
