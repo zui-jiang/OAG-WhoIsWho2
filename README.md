@@ -113,6 +113,48 @@
 ![PIC5](https://github.com/lyj201002/OAG-WhoIsWho2/blob/master/download%20(4).png)
 ![PIC6](https://github.com/lyj201002/OAG-WhoIsWho2/blob/master/download%20(5).png)
 ![PIC7](https://github.com/lyj201002/OAG-WhoIsWho2/blob/master/download.png)
-### Model feature importances
+### RF Model feature importances
 ![PIC8](https://github.com/lyj201002/OAG-WhoIsWho2/blob/master/download%20(7).png)
+
+## RUN
+```
+.
+├── cna_data
+│   ├── cna_test_pub.json
+│   ├── cna_test_unass_competition.json
+│   ├── cna_valid_pub.json
+│   ├── cna_valid_unass_competition.json
+│   ├── result.json
+│   ├── train_author.json
+│   ├── train_pub.json
+│   ├── valid_example_evaluation_continuous.json
+│   ├── whole_author_profile.json
+│   └── whole_author_profile_pub.json
+├── code
+│   │   ├── featurearray.pkl
+│   │   ├── get_feat.py
+│   │   ├── labelarray.pkl
+│   │   ├── labelSample.pkl
+│   │   ├── mean.pkl
+│   │   ├── model.dat
+│   │   ├── paperAndAuthor.pkl
+│   │   ├── requirements.txt
+│   │   ├── result_dict.pkl
+│   │   ├── result.json
+│   │   ├── samples.pkl
+│   │   ├── standardSample.pkl
+│   │   ├── std.pkl
+│   │   ├── test.py
+└── └── └── MyModel.ipynb
+```
+
+```
+cd code
+pip install -r requirements.txt
+python get_feat.py
+python test.py
+```
+
+## TRICKS
+- 并非所有新增论文都可以被分配，所以设置阈值排除一部分
 
