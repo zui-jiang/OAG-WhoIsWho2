@@ -163,3 +163,5 @@ python test.py
 ## TRICKS
 - 并非所有新增论文都可以被分配，所以设置阈值排除一部分
 
+## 最优模型参数下载
+链接: https://pan.baidu.com/s/1EQqhstU7VjYx5dOD1C4x_g 提取码: jnky
