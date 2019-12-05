@@ -145,7 +145,12 @@
 │   │   ├── standardSample.pkl
 │   │   ├── std.pkl
 │   │   ├── test.py
-└── └── └── MyModel.ipynb
+│   └── MyModel.ipynb
+├── model
+│   │   ├── mean.pkl
+│   │   ├── std.pkl
+│   │   ├── result_dict.pkl
+└── └── └── model.dat
 ```
 
 ```
